@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In-Game Purchases</title>
+    <!-- Bootstrap CSS link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Your custom CSS file -->
+    <style>
+        /* Custom CSS for the header h1 */
+        .header-h1 {
+            background-color: #007BFF; /* Background color */
+            color: #FFF; /* Text color */
+            padding: 10px 20px; /* Padding around text */
+            border-radius: 5px; /* Rounded corners */
+            font-size: 36px; /* Font size */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow */
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-dark text-white text-center py-4">
+        <h1>Naruto x Boruto Bot </h1>
+        <!-- <p>User ID: 12345</p> Replace with actual user ID -->
+    </header>
+    <main class="container my-4">
+        <section id="purchase-options">
+            <h2 class="mb-4">In-Game Purchases and Offers:</h2>
+
+            <!-- Offer cards -->
+            <div class="row">
+                <!-- Offer 1 -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h3 class="card-title">Mega Treasure Chest</h3>
+                            <p class="card-text">Contains 9k gems, 1 million coins, and 50 tokens</p>
+                            <p class="card-text">Price: 100 Rs</p>
+                            <button class="btn btn-primary" onclick="addToCart('Mega Treasure Chest', 100, 'Contains 9k gems, 1 million coins, and 50 tokens')">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Offer 2 -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h3 class="card-title">Elite Fortune Chest</h3>
+                            <p class="card-text">Contains 4k gems, 500k coins, and 20 tokens</p>
+                            <p class="card-text">Price: 50 Rs</p>
+                            <button class="btn btn-primary" onclick="addToCart('Elite Fortune Chest', 50, 'Contains 4k gems, 500k coins, and 20 tokens')">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Offer 3 -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h3 class="card-title">Ultimate Booster Chest</h3>
+                            <p class="card-text">Contains 500 tokens, 1 million coins, and 1k gems</p>
+                            <p class="card-text">Price: 100 Rs</p>
+                            <button class="btn btn-primary" onclick="addToCart('Ultimate Booster Chest', 100, 'Contains 500 tokens, 1 million coins, and 1k gems')">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Offer 4 -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h3 class="card-title">Experience & Glory Blitz Chest</h3>
+                            <p class="card-text">Contains a 3x boost for 24 hours</p>
+                            <p class="card-text">Price: 80 Rs</p>
+                            <button class="btn btn-primary" onclick="addToCart('Experience & Glory Blitz Chest', 80, 'Contains a 3x boost for 24 hours')">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Offer 5 -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h3 class="card-title">Experience & Glory Supercharge Chest</h3>
+                            <p class="card-text">Contains a 5x boost for 24 hours</p>
+                            <p class="card-text">Price: 120 Rs</p>
+                            <button class="btn btn-primary" onclick="addToCart('Experience & Glory Supercharge Chest', 120, 'Contains a 5x boost for 24 hours')">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Offer 6 -->
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <h3 class="card-title">Starter's Bounty Chest</h3>
+                            <p class="card-text">Contains 2k gems, 1 million coins, and 5 tokens</p>
+                            <p class="card-text">Price: 25 Rs</p>
+                            <button class="btn btn-primary" onclick="addToCart('Starter\'s Bounty Chest', 25, 'Contains 2k gems, 1 million coins, and 5 tokens')">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Add a fixed "View Cart" button -->
+        <button class="btn btn-primary view-cart-btn" onclick="location.href='cart.html'">View Cart</button>
+    </main>
+    <footer class="bg-dark text-white text-center py-3">
+        <!-- Your footer content -->
+    </footer>
+
+    <!-- Bootstrap JS and Popper.js scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script> <!-- Link to your custom JavaScript file -->
+</body>
+</html>

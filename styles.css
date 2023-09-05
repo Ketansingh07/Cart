@@ -1,0 +1,143 @@
+/* Global styles */
+body {
+  background-image: url('image.jpg'); /* Replace with your high-quality background image */
+  background-size: cover; /* Cover the entire viewport */
+  background-repeat: no-repeat;
+  image-resolution: 1080px;
+  background-attachment: fixed;
+  background-position: center center; /* Center the image horizontally and vertically */
+  font-family: 'Arial', sans-serif;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+/* ... Rest of your styles ... */
+
+/* Header styles */
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center; /* Center align text */
+}
+
+/* Main content styles */
+.container {
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background for content */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Custom prompt style */
+.custom-prompt {
+  background-color: #007bff; /* Blue background color */
+  color: #fff; /* White text color */
+  padding: 10px 20px; /* Add padding */
+  border-radius: 5px; /* Add border radius */
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 999;
+}
+
+/* Style for the fixed "View Cart" button */
+.view-cart-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999; /* Ensure it's on top of other elements */
+  background-color: #0055aa; /* Blue button color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.view-cart-btn:hover {
+  background-color: #003377; /* Darker blue on hover */
+}
+
+/* Offer card styles */
+.card {
+  background-image: url('gem.jpg'); /* Replace with your card background image */
+  transition: transform 0.3s ease-in-out;
+  border: none;
+  margin: 10px;
+  max-width: 300px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Apply a small lift on hover */
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow on hover */
+}
+
+.card-title {
+  color: #FFA500; /* Orange title color (reminiscent of Naruto's jumpsuit) */
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.card-text {
+  font-size: 1.2rem;
+}
+
+.card-img-top {
+  max-height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-body {
+  padding: 20px;
+  text-align: center;
+}
+
+.card-body button {
+  background-color: #0055aa; /* Blue button color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.card-body button:hover {
+  background-color: #003377; /* Darker blue on hover */
+}
+
+/* Cart styles */
+#cart-items {
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background for cart items */
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#cart-total {
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background for cart total */
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Footer styles */
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Add custom styles for your anime-themed elements here */
